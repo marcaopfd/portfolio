@@ -1,0 +1,133 @@
+/*--------------- NAVIGATION BAR -----------------*/ 
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 30px;
+}
+
+.nav-text{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #37352f;
+}
+.nav-profile{
+    font-weight: 800;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.top-nav{
+    height: 30px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+.top-nav-text{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #37352f;
+    font-size: 14px;
+    padding: 5px 0;
+    font-weight: 700;
+}
+/*--------------- Section PROFILE -----------------*/
+/* SO pra aprender a fazer o background na seciton
+    background-image: url('https://picsum.photos/800?grayscale');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    */
+    /*--------------- Section PROFILE -----------------*/
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 30px;
+    background-color: #f5f5f5;
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.profile-name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #37352f;
+    font-size: 60px;
+    font-weight: 800;
+}
+.profile-description{
+    font-family: 'Inter', sans-serif;
+    color: #37352f;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+}
+.text-span{
+    color: rgb(133, 16, 251);
+}
+.profile-image{
+    border-radius: 30px;
+}
+.profile-button{
+    background-color: black;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px cornflowerblue;
+}
+.profile-button:hover{
+    background-color: cornflowerblue;
+    box-shadow: 2px 4px 5px rgb(133, 16, 251);
+}
+
+/*--------------- Section SKILLS -----------------*/
+.skills{
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skill-name{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(133, 16, 251);
+}
+.skill-set{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.skill-set-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #37352f;
+    font-weight: 300;
+}
