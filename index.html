@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2fb17b865e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="top-nav">
@@ -18,10 +19,10 @@
     <nav class="navbar">
         <a href="#home" class="nav-profile nav-text">Marcospfd</a>
         <div class="nav-links">
-            <a class="nav-text" href="#about">Sobre</a>
-            <a class="nav-text" href="#projects">Projetos</a>
+            <a class="nav-text nav-buttons" href="./src/about.html">Sobre</a>
+            <a class="nav-text nav-buttons" href="./src/projects.html">Projetos</a>
         </div>
-        <a href="#" class="nav-text nav-contact">Me Contate</a>
+        <a href="#" class="nav-text nav-contact">Contact Me</a>
     </nav>
     <section class="profile">
         <div class="profile-text">
@@ -30,6 +31,59 @@
             <button class="profile-button">Check My Projects</button>
         </div>
         <img src="./assets/Marcao Imagem.jpg" alt="Profile Picture" class="profile-image">
+    </section>
+    <section class="sobre">
+        <h3 class="sobre-text profile-name">About Me<span class="text-span">.</h3>
+        <p class="sobre-description skill-set-text">I am a <span class="text-span"> Fullstack Developer</span> com experiência em criar aplicações web responsivas e funcionais. Tenho habilidades sólidas em HTML, CSS, JavaScript e frameworks como React e Next.js. Além disso, possuo conhecimentos em design de interface do usuário (UI) e experiência do usuário (UX), o que me permite criar soluções que não apenas atendem às necessidades dos usuários, mas também proporcionam uma experiência agradável.</p>
+        <div class="sobre-personal">
+            <div class="sobre-personal-box">
+                <h4 class="sobre-personal-title">Personal Details</h4>
+                <div class="personal-details">
+                    <div class="personal-title">
+                        <p class="personal-title-text">Phone</p>
+                        <p class="personal-title-text">Email</p>
+                        <p class="personal-title-text">Github</p>
+                        <p class="personal-title-text">Job Status</p>
+                    </div>
+                    <div class="personal-title">
+                        <p class="personal-answer-text">+353 083 439 2734</p>
+                        <p class="personal-answer-text">marcos.pfd02@gmail.com</p>
+                        <p class="personal-answer-text">Marcaopfd</p>
+                        <p class="personal-answer-text personal-available">Available</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-personal-box">
+                <h4 class="sobre-personal-title">My interests</h4>
+                <div class="personal-details-2">
+                    <div class="interests">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <p class="interests-text">Gaming</p>
+                    </div>
+                    <div class="interests">
+                        <i class="fa-solid fa-music"></i>
+                        <p class="interests-text">Music</p>
+                    </div>
+                    <div class="interests">
+                        <i class="fa-solid fa-plane"></i>
+                        <p class="interests-text">Travel</p>
+                    </div>
+                    <div class="interests">
+                        <i class="fa-solid fa-volleyball"></i>
+                        <p class="interests-text">Sports</p>
+                    </div>
+                    <div class="interests">
+                        <i class="fa-solid fa-computer"></i>
+                        <p class="interests-text">Tech</p>
+                    </div>
+                    <div class="interests">
+                        <i class="fa-solid fa-money-bill"></i>
+                        <p class="interests-text">Finance</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <button class="sobre-button">Download CV</button>
     </section>
     <section class="skills">
         <h2 class="skills-text profile-name">Skills<span class="text-span">.</h2>
@@ -72,61 +126,8 @@
             </div>
         </div>
     </section>
-    <section class="sobre">
-        <h3 class="sobre-text profile-name">Sobre Mim<span class="text-span">.</h3>
-        <p class="sobre-description skill-set-text">Sou um <span class="text-span"> desenvolvedor FullStack</span> com experiência em criar aplicações web responsivas e funcionais. Tenho habilidades sólidas em HTML, CSS, JavaScript e frameworks como React e Next.js. Além disso, possuo conhecimentos em design de interface do usuário (UI) e experiência do usuário (UX), o que me permite criar soluções que não apenas atendem às necessidades dos usuários, mas também proporcionam uma experiência agradável.</p>
-        <div class="sobre-personal">
-            <div class="sobre-personal-box">
-                <h4 class="sobre-personal-title">Personal Details</h4>
-                <div class="personal-details">
-                    <div class="personal-title">
-                        <p class="personal-title-text">Phone</p>
-                        <p class="personal-title-text">Email</p>
-                        <p class="personal-title-text">Github</p>
-                        <p class="personal-title-text">Job Status</p>
-                    </div>
-                    <div class="personal-title">
-                        <p class="personal-answer-text">+353 083 439 2734</p>
-                        <p class="personal-answer-text">marcos.pfd02@gmail.com</p>
-                        <p class="personal-answer-text">Marcaopfd</p>
-                        <p class="personal-answer-text">Available</p>
-                    </div>
-                </div>
-            </div>
-            <div class="sobre-personal-box">
-                <h4 class="sobre-personal-title">My interests</h4>
-                <div class="personal-details-2">
-                    <div class="interests">
-                        <img src="https://picsum.photos/60" alt="interests" class="interests-image">
-                        <p class="interests-text">Gaming</p>
-                    </div>
-                    <div class="interests">
-                        <img src="https://picsum.photos/60" alt="interests" class="interests-image">
-                        <p class="interests-text">Music</p>
-                    </div>
-                    <div class="interests">
-                        <img src="https://picsum.photos/60" alt="interests" class="interests-image">
-                        <p class="interests-text">Travel</p>
-                    </div>
-                    <div class="interests">
-                        <img src="https://picsum.photos/60" alt="interests" class="interests-image">
-                        <p class="interests-text">Sports</p>
-                    </div>
-                    <div class="interests">
-                        <img src="https://picsum.photos/60" alt="interests" class="interests-image">
-                        <p class="interests-text">Tech</p>
-                    </div>
-                    <div class="interests">
-                        <img src="https://picsum.photos/60" alt="interests" class="interests-image">
-                        <p class="interests-text">Finance</p>
-                     </div>
-                </div>
-            </div>
-        </div>
-        <button class="sobre-button">Download CV</button>
-    </section>
     
 
-    
+    <script src="./src/main.js"></script>
 </body>
 </html>
